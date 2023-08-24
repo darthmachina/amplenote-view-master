@@ -1,6 +1,6 @@
-# Wallboard Amplenote Plugin
+# View Master Amplenote Plugin
 
-This plugin will create a series of tables based on data contained in other notes. The main purpose is to create a media wallboard containing images and data for each of the pages tagged with a certain tag, grouped by a list of other tags.
+This plugin will create a series of tables based on data contained in other notes. The table will contain images and data for each of the pages tagged with a certain tag, grouped by a list of other tags.
 
 # Usage
 Create a note in Amplenote contaning a table with at the following data:
@@ -10,7 +10,7 @@ Create a note in Amplenote contaning a table with at the following data:
 |Query Tag|example-tag|
 |Group By Tags|tag1,tag2|
 
-After running the plugin on the note it will query for all pages with `example-tag` set, create sections for each tag in the `Group By Tags` list and create a table with a cell containing data for each note that contains the query tag and the section tag.
+After running the plugin on the note it will query for all pages with `example-tag` set, create sections for each tag in the `Group By Tags` list and create a view containing data for each note that contains the query tag and the section tag.
 
 # Development
 
